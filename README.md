@@ -79,6 +79,8 @@ build_standalone.sh   ← builds the executable
 
 not financial advice. i put warnings everywhere. shitcoins are extremely high risk and can go to zero overnight or faster. this tool shows momentum signals only, thats it. whether you decide to put money in something is entirely on you - i built this for research /cough and i am not responsible for your financial decisions. you were warned, multiple times, in multiple places. its your call not mine
 
+tbh i cant even afford to use this app so if u really secure the bag with this hmu alms for the broke bitch
+
 ---
 
 ## license
