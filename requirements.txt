@@ -1,0 +1,11 @@
+# Core — always required
+requests>=2.28.0
+PyQt6>=6.6.0
+python-dotenv>=1.0.0
+
+# Browser automation (optional — used for extra trending signal)
+playwright>=1.40.0
+
+# Optional — AI commentary (install one or both)
+# pip install openai        ← for OpenAI
+# pip install anthropic     ← for Anthropic / Claude

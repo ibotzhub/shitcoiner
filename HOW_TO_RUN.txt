@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════╗
+║                ⚡  SHITCOINER  —  HOW TO RUN                 ║
+╚══════════════════════════════════════════════════════════════╝
+
+OPTION A — Run directly with Python (easiest)
+──────────────────────────────────────────────
+  Make sure you've done the install steps first, then:
+
+  Windows (Command Prompt):
+    cd path\to\shitcoiner
+    python app.py
+
+  macOS / Linux (Terminal):
+    cd path/to/shitcoiner
+    python app.py
+    OR:  ./run.sh
+
+  A window will open immediately. No browser, no localhost,
+  no server. Just the app.
+
+
+OPTION B — Run the built executable
+─────────────────────────────────────
+  If you ran build_standalone.sh:
+
+  macOS:
+    Double-click dist/SHITCOINER.app
+    OR:  open dist/SHITCOINER.app
+
+  Linux:
+    ./dist/SHITCOINER
+
+  Windows:
+    Double-click dist/SHITCOINER.exe
+
+  No Python required to run the executable.
+
+
+WHERE DATA IS STORED
+────────────────────
+  Everything is saved in:  ~/.shitcoiner/
+
+    ~/.shitcoiner/watchlist.json  ← your saved coins (My Bag)
+    ~/.shitcoiner/.env            ← your API keys (AI, exchange)
+
+  The app creates this folder automatically on first run.
+  You never need to touch it manually.
+
+
+CLOSING THE APP
+───────────────
+  Just close the window normally. Your watchlist saves
+  automatically — nothing is lost.

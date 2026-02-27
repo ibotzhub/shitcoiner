@@ -1,0 +1,137 @@
+╔══════════════════════════════════════════════════════════════╗
+║                ⚡  SHITCOINER  —  HOW TO USE                 ║
+╚══════════════════════════════════════════════════════════════╝
+
+⚠  NOT FINANCIAL ADVICE. Shitcoins are extremely high risk.
+   Scores show momentum only. Only risk money you can afford
+   to lose entirely.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+RUNNING A SCAN
+──────────────
+  Click  ▶ RUN SCAN  in the toolbar.
+
+  The app fetches the top 300–500 coins from CoinGecko,
+  scores them for shitcoin momentum, and shows the results
+  ranked highest to lowest.
+
+  Takes about 10–20 seconds depending on your connection.
+
+  Options in the toolbar:
+    TOP    — how many results to show (default 25)
+    FETCH  — how deep to look: Top 300 or Top 500 by market cap
+    INCLUDE BLUE CHIPS — show BTC, ETH, top-20 coins (off by default)
+
+
+READING THE RESULTS
+───────────────────
+  Columns in the results table:
+
+  #         Your rank — 1 = strongest momentum right now
+  COIN      Symbol + name. [NEW] tag = recently listed coin
+  7D CHART  7-day price sparkline — green = up, red = down
+  PRICE     Current price in USD
+  24H %     Price change in last 24 hours
+  V/MCAP    Volume ÷ Market Cap — THE key shitcoin signal
+              High ratio = huge trading vs coin size = something's happening
+              Shitcoins mid-pump often show 0.5, 1.0, or higher
+  SIGNAL    Momentum signal (see below)
+  SCORE     Overall momentum score 0–1. Higher = more action.
+              ▲ = score rising since last scan
+              ▼ = score falling since last scan
+  CAP #     Market cap rank vs all coins
+
+
+SIGNALS EXPLAINED
+─────────────────
+  ●  STRONG MOMENTUM  — score high and rising. Most active.
+  ●  VOL SPIKE        — big volume relative to coin size. Watch it.
+  ◐  ACCUMULATION?    — high volume but score not spiking yet.
+  ○  LOW SIGNAL       — nothing notable happening right now.
+  ●  FADING           — score dropping. Momentum dying.
+
+  These are momentum indicators ONLY. Not buy or sell advice.
+  A coin can have STRONG MOMENTUM and then dump 80% an hour later.
+
+
+MY BAG — WATCHLIST & PORTFOLIO
+────────────────────────────────
+  Click the ☆ star next to any coin to add it to My Bag.
+
+  When adding a coin you can optionally enter:
+    • Entry price     — what you paid per coin
+    • Amount          — how many coins you hold
+    • Price alert     — notify if price drops below this
+    • Score alert     — notify if momentum score drops below this
+
+  My Bag shows at the top of the window and updates every 10
+  seconds automatically with:
+    • Live current price
+    • 24h change
+    • Current signal
+    • P&L — how much you're up or down in dollars and percent
+    • Alert status
+
+  Prices auto-refresh every 10 seconds without re-scanning.
+  Remove a coin from your bag with the ✕ button.
+
+
+AI COMMENTARY
+─────────────
+  Click ⚙ SETTINGS → AI COMMENTARY tab.
+  Paste an OpenAI or Anthropic API key. Click SAVE KEYS.
+
+  Then run a scan and click  🤖 AI TAKE.
+
+  The AI reads your scan results and gives plain-English
+  commentary — what stands out, what the vol/mcap signals
+  mean, what to watch. Never gives buy/sell advice.
+
+  Get keys from:
+    OpenAI:    https://platform.openai.com
+    Anthropic: https://console.anthropic.com
+
+
+SETTINGS
+────────
+  ⚙ SETTINGS button (top right):
+
+  AI COMMENTARY tab:
+    Paste your OpenAI or Anthropic API key here.
+
+  EXCHANGE tab:
+    Binance API key — for future use only.
+    This app DOES NOT TRADE. Never enters orders.
+
+  Keys are saved to ~/.shitcoiner/.env on your machine only.
+  Never sent anywhere except to OpenAI or Anthropic when
+  you click AI TAKE.
+
+
+TIPS FOR SHITCOIN HUNTING
+──────────────────────────
+  1. High V/MCAP ratio (0.3+) is the earliest signal.
+     It means trading volume is huge relative to the coin's
+     total value — something is moving before the price shows it.
+
+  2. [NEW] coins are the highest risk + highest reward.
+     Recently listed = no track record, tiny liquidity.
+
+  3. Run scans multiple times. The ▲▼ velocity arrows on
+     scores show you which coins are accelerating vs cooling off.
+
+  4. A coin on the CoinGecko trending list + high V/MCAP
+     + score ≥ 0.7 is the combination to watch.
+
+  5. Add coins to My Bag with a score alert (e.g. 0.40) so
+     you get notified when momentum dies — useful for exits.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚠  REMINDER: This is a research tool showing momentum data
+   from public APIs. It does not predict prices. Crypto is
+   extremely volatile. Never invest more than you can afford
+   to lose completely.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
